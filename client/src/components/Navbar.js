@@ -23,7 +23,7 @@ const Navbar = () => {
       <Menu.Item key="view-tournaments">
         <Link to = "/tournaments-list">Tournaments List</Link>
       </Menu.Item>
-      <Menu.Item key="view-tournaments">
+      <Menu.Item key="participants">
         <Link to = "/participant">Participants-CRUD</Link>
       </Menu.Item>
     </Menu>
