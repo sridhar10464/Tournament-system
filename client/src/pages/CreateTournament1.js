@@ -29,7 +29,7 @@ const CreateTournament1 = () => {
   const createTournament = async (values) => {
     try {
       setLoading(true);
-      const response = await axios.post('https://tournament-system.onrender.com/api/v1/tournament/create', values);
+      const response = await axios.post('/api/v1/tournament/create', values);
 
       if (response.data.success) {
         message.success('Tournament created successfully');
