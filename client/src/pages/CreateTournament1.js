@@ -16,7 +16,7 @@ const CreateTournament1 = () => {
   const fetchTournaments = async () => {
     try {
       setLoading(true);
-      const {data} = await axios.get('/api/v1/tournament/get-all/tournaments');
+      const {data} = await axios.get('https://tournament-system.onrender.com/api/v1/tournament/get-all/tournaments');
       setTournaments(data);
       setLoading(false);
     } catch (error) {
